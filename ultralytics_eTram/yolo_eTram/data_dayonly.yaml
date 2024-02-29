@@ -1,0 +1,10 @@
+path: ./etrap_yolo_new
+train: ./dayonly_train.txt
+val: ./dayonly_val.txt
+test: ./dayonly_test.txt
+
+# Classes
+names:
+  0: pedestrian
+  1: vehicle
+  2: micromobility

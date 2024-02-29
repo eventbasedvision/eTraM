@@ -1,0 +1,15 @@
+path: ./etrap_yolo
+train: day2night_train.txt
+val: day2night_val.txt
+test: day2night_test.txt
+
+# Classes
+names:
+  0: pedestrian
+  1: car
+  2: bicycle
+  3: bus
+  4: bike
+  5: truck
+  6: tram
+  7: wheelchiar
