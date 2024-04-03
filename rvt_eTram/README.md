@@ -8,10 +8,17 @@
 
 This is the modified RVT version for the CVPR 2024 paper [eTraM: Event-based Traffic Monitoring Dataset](https://arxiv.org/abs/2403.19976).
 
-> This readme is based the official RVT implementation with required updates for eTram Dataset.
+> This readme is based on the official RVT implementation with required updates for eTram Dataset.
 
 ## Conda Installation
 We highly recommend to use [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) to reduce the installation time.
+
+```Bash
+conda env create -f environment.yaml
+```
+
+In case of error you can follow the original installation steps.
+
 ```Bash
 conda create -y -n rvt python=3.9 pip
 conda activate rvt
@@ -39,6 +46,7 @@ Detectron2 is not strictly required but speeds up the evaluation.
 To evaluate or train RVT on eTram you will need to download the eTram dataset from [Link to Dataset]().
 
 Run the following command to preprocess the dataset to required format
+> The preprocessed format is similar to gen4 (1Mpx) format with changes in the class labels.
 ```bash
 python preprocess_dataset.py <DATA_IN_PATH> \
 <DATA_OUT_PATH> \
@@ -100,6 +108,8 @@ This project has used code from the following projects:
 - [RVT](https://github.com/uzh-rpg/RVT) for the official RVT implementation in Pytorch
 - [timm](https://github.com/huggingface/pytorch-image-models) for the MaxViT layer implementation in Pytorch
 - [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) for the detection PAFPN/head
+
+## References
 
 ```bibtex
 @InProceedings{Gehrig_2023_CVPR,
