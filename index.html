@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- bootswatch css -->
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+	<style>
+		body {
+			padding-top: 2rem;
+		}
+		.starter-template {
+			padding: 3rem 1.5rem;
+		}
+	</style>
+	<title>eTraM</title>
+</head>
+
+<body>
+    <div class="container-fluid" style="max-width:900px;margin-left:auto;margin-right:auto;">
+
+        <div class="row justify-content-md-center">
+            <h3 class="display-3">eTraM</h3>
+            <br>
+            <h3 class="display-4">Event-based Traffic Monitoring Dataset</h3><br>
+        </div>
+
+	<br>
+	<div class="row justify-content-md-center">
+		<div class="col-md-12 text-center">
+			<h3 class="display-5" style="color: gray">CVPR 2024</h3>
+		</div>
+	</div>
+	<br>
+	<div class="row justify-content-md-center">
+		<div class="col-md-3 text-center">
+			<a href="https://github.com/aayush-v" style="color:#007bff; text-align:center">
+				Aayush Atul Verma
+			</a>
+			<br>Arizona State University
+		</div>
+		<div class="col-md-3 text-center">
+			<a href="https://chakravarthi589.github.io" style="color:#007bff; text-align:center">
+				Bharatesh Chakravarthi
+			</a>
+			<br>Arizona State University
+		</div>
+		<div class="col-md-3 text-center">
+			<a href="https://github.com/arpitvaghela" style="color:#007bff; text-align:center">
+				Arpitsinh Vaghela
+			</a>
+			<br>
+			Arizona State University
+		</div>
+		<div class="col-md-3 text-center">
+			<a href="https://www.public.asu.edu/~hwei27/" style="color:#007bff; text-align:center">
+				Hua Wei
+			</a>
+			<br>Arizona State University
+		</div>
+		<div class="col-md-3 text-center">
+			<a href="https://yezhouyang.engineering.asu.edu" style="color:#007bff; text-align:center">
+				Yezhou Yang
+			</a>
+			<br>Arizona State University
+		</div>
+	</div>
+	<div class="row justify-content-md-center" style="margin-top: 2em; margin-bottom: 3em">
+		<div class="col text-center">
+			<ul class="nav nav-pills nav-justified" style="justify-content: center;">
+				<li>
+					<a href="#" style="color:black">
+						<i class="fa fa-file fa-5x" style="padding:15px"></i>
+						<br><strong>Paper</strong>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/eventbasedvision/eTram" style="color:black">
+						<i class="fa fa-github fa-5x" style="padding:15px"></i>
+						<br><strong>Code</strong>
+					</a>
+				</li>
+				<li>
+					<a href="#data" style="color:black">
+						<i class="fa fa-database fa-5x" style="padding:15px"></i>
+						<br><strong>Data</strong>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<img src="imgs/teaserImage.png" class="img-responsive" alt="overview" style="width: 100%; padding: 15px"><br>
+		<div class="col">
+			<h3 style="text-align: left;">
+				Abstract
+			</h3>
+			<p class="text-justify">
+				Event-based cameras, with their high temporal and dynamic range and minimal memory usage, have found applications 
+				in various fields. However, their potential in static traffic monitoring remains largely unexplored. To facilitate 
+				this exploration, we present eTraM - the first-of-its-kind fully event-based traffic monitoring dataset. eTraM 
+				offers a rich collection of data from diverse traffic scenarios under varying lighting and weather conditions, 
+				providing a comprehensive view of real-world traffic situations. With over 2 million bounding box annotations, 
+				it covers 8 distinct classes of traffic participants, ranging from vehicles to vulnerable road users and micro-mobility,
+				 recorded over 10 hours. eTraM's utility has been assessed using state-of-the-art methods for traffic participant 
+				 detection tasks, including RVT, RED, and YOLOv8. We quantitatively evaluate the ability of event-based models to 
+				 generalize on unseen scenes and nighttime data. Through our findings, we substantiate the compelling potential 
+				 of leveraging event cameras for traffic monitoring, opening new avenues for research and application. eTraM 
+				 is available at https://github.com/eventbasedvision/eTram
+			  </p>
+		</div>
+	</div>
+	<div class="row justify-content-md-center" id="video">
+		<div class="col">
+			<h3 style="text-align: left;">
+				Video
+			</h3>
+			<div style="position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;">
+				<div style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;">
+					<iframe width="100%" height="400px" display="block" src="https://www.youtube.com/embed/L3uWqIsqKTM?si=Pc364Qd3Fb_JRMV_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col">
+			<h3 style="text-align: left;">
+				Citation
+			</h3>
+			<div style="background-color: lightgray;">
+                <pre style="display: inline; white-space: pre-wrap">
+                    @inproceedings{todo,
+                    year={2024}} 
+                </pre>
+			</div>
+		</div>
+	</div>
+	<br>
+</div>
+</body>
+</html>
