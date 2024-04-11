@@ -8,8 +8,6 @@
 
 This is the modified RVT version for the CVPR 2024 paper [eTraM: Event-based Traffic Monitoring Dataset](https://arxiv.org/abs/2403.19976).
 
-> This readme is based on the official RVT implementation with required updates for eTram Dataset.
-
 ## Conda Installation
 We highly recommend to use [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) to reduce the installation time.
 
@@ -43,7 +41,7 @@ Detectron2 is not strictly required but speeds up the evaluation.
 ## Evaluation
 
 ### Required Data
-To evaluate or train RVT on eTram you will need to download the eTram dataset from [Link to Dataset]().
+To evaluate or train RVT on eTram you will need to download the eTram dataset from [Link to Dataset](https://docs.google.com/forms/d/e/1FAIpQLSfH2LI5oqWWfose-pBC3dsbaAMvRQuv0BI93njV_5wQjYx83w/viewform).
 
 Run the following command to preprocess the dataset to required format
 > The preprocessed format is similar to gen4 (1Mpx) format with changes in the class labels.
