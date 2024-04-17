@@ -1,4 +1,4 @@
-# *eTram* : Event-based Traffic Monitoring Dataset 
+# *eTraM* : Event-based Traffic Monitoring Dataset 
 
 <div>
 <a href="https://arxiv.org/abs/2403.19976"> Paper</a> |
