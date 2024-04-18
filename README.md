@@ -5,7 +5,7 @@
 <a href="https://eventbasedvision.github.io/eTraM
 /">Website</a> |
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH2LI5oqWWfose-pBC3dsbaAMvRQuv0BI93njV_5wQjYx83w/viewform">Data</a> |
-<a href="docs/eTraM Dataset Documentation.pdf" target="_blank">Doc </a>
+<a href="https://eventbasedvision.github.io/eTraM/docs/eTraM%20Dataset%20Documentation.pdf" target="_blank">Doc </a>
 </div>
 <hr>
 <img src="./imgs/teaserImage.png"/>
