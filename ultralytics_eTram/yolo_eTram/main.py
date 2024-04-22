@@ -10,7 +10,9 @@ if __name__ == "__main__":
     parser.add_argument("--test", action='store_true')
     args = parser.parse_args()
     model = YOLO(args.model)
-    model.train(data=args.data, epochs=args.max_epoch, batch=args.batch_size)
 
     if args.test:
+        model.val(data=args.data, split="test")
+    else:
+        model.train(data=args.data, epochs=args.max_epoch, batch=args.batch_size)
         model.val(data=args.data, split="test")

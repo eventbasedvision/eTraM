@@ -1,14 +1,10 @@
 path: ./etrap_yolo
-train: train.txt
-val: val.txt
+train: ./train.txt
+val: ./val.txt
+test: ./test.txt
 
 # Classes
 names:
   0: pedestrian
-  1: car
-  2: bicycle
-  3: bus
-  4: bike
-  5: truck
-  7: tram
-  6: wheelchiar
+  1: vehicle
+  2: micromobility
