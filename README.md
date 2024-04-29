@@ -1,5 +1,6 @@
 # Updates
 - [29 April 2024] eTraM is now available in .h5 format as well.
+- [29 April 2024] The pre-trained checkpoint of RVT-base is available for reference at [RVT](./rvt_eTram/README.md#pre-trained-checkpoint).
 
 # *eTraM* : Event-based Traffic Monitoring Dataset 
 
