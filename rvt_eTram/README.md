@@ -41,7 +41,7 @@ Detectron2 is not strictly required but speeds up the evaluation.
 ## Evaluation
 
 ### Required Data
-To evaluate or train RVT on eTram you will need to download the eTram dataset from [Link to Dataset](https://docs.google.com/forms/d/e/1FAIpQLSfH2LI5oqWWfose-pBC3dsbaAMvRQuv0BI93njV_5wQjYx83w/viewform).
+To evaluate or train RVT on eTraM you will need to download the eTraM dataset from [Link to Dataset](https://docs.google.com/forms/d/e/1FAIpQLSfH2LI5oqWWfose-pBC3dsbaAMvRQuv0BI93njV_5wQjYx83w/viewform).
 
 Run the following command to preprocess the dataset to required format
 > The preprocessed format is similar to gen4 (1Mpx) format with changes in the class labels.
@@ -54,9 +54,9 @@ conf_preprocess/filter_gen4.yaml -ds gen4 -np <N_PROCESSES> # we use the same pr
 ```
 
 ### Pre-trained Checkpoint
-The pre-trained checkpoint of RVT-base on eTram is available at [](). 
+The pre-trained checkpoint of RVT-base on eTraM is available [here](https://arizonastateu-my.sharepoint.com/:u:/g/personal/averma90_sundevils_asu_edu/EWSl7Y3riQZJjQ7gEfpFt2EBfXktubreHoudWmTzcRXRWA?e=A6MsVn) for your reference. 
 
-- Set `DATA_DIR` as the path to eTram dataset directory
+- Set `DATA_DIR` as the path to eTraM dataset directory
 - Set `CKPT_PATH` to the path of the *correct* checkpoint matching the choice of the model and dataset.
   
   to load either the base, small, or tiny model configuration
