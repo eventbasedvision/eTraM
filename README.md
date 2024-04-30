@@ -1,3 +1,7 @@
+# Updates
+- [29 April 2024] eTraM is now available in .h5 format as well.
+- [29 April 2024] The pre-trained checkpoint of RVT-base is available for reference at [RVT](./rvt_eTram/README.md#pre-trained-checkpoint).
+
 # *eTraM* : Event-based Traffic Monitoring Dataset 
 
 <div>
@@ -25,12 +29,12 @@ The dataset encompasses three distinct traffic monitoring scenes with 5 hr of in
 
 # Folder Structure
 ```sh
-eTram
+eTraM
 ├── LICENSE
 ├── imgs/
 ├── README.md
-├── rvt_eTram/ # updated version of rvt for eTram 
-└── ultralytics_eTram/ # updated version of ultralytivcs for eTram
+├── rvt_eTram/ # updated version of rvt for eTraM
+└── ultralytics_eTram/ # updated version of ultralytivcs for eTraM
     └── yolo_eTram/ # scripts to run yolo
 ```
 
@@ -38,7 +42,7 @@ eTram
 
 <img src="./imgs/Baseline_Results.png"> </img>
 
-The implementation of these models for eTram can be found here.
+The implementation of these models for eTraM can be found here.
 
 [RVT](./rvt_eTram/) |
 [YOLO](./ultralytics_eTram/yolo_eTram/) | 
