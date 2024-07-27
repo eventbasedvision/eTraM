@@ -5,7 +5,7 @@
 # *eTraM* : Event-based Traffic Monitoring Dataset 
 
 <div>
-<a href="https://arxiv.org/abs/2403.19976"> Paper</a> |
+<a href="https://openaccess.thecvf.com/content/CVPR2024/html/Verma_eTraM_Event-based_Traffic_Monitoring_Dataset_CVPR_2024_paper.html"> Paper</a> |
 <a href="https://eventbasedvision.github.io/eTraM
 /">Website</a> |
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH2LI5oqWWfose-pBC3dsbaAMvRQuv0BI93njV_5wQjYx83w/viewform">Data</a> |
@@ -46,7 +46,6 @@ The implementation of these models for eTraM can be found here.
 
 [RVT](./rvt_eTram/) |
 [YOLO](./ultralytics_eTram/yolo_eTram/) | 
-[RED]()
 
 # License
 
@@ -55,10 +54,12 @@ The implementation of these models for eTraM can be found here.
 # Citation
 
 ```
-@article{verma2024etram,
-  title={eTraM: Event-based Traffic Monitoring Dataset},
-  author={Verma, Aayush Atul and Chakravarthi, Bharatesh and Vaghela, Arpitsinh and Wei, Hua and Yang, Yezhou},
-  journal={arXiv preprint arXiv:2403.19976},
-  year={2024}
+@InProceedings{Verma_2024_CVPR,
+    author    = {Verma, Aayush Atul and Chakravarthi, Bharatesh and Vaghela, Arpitsinh and Wei, Hua and Yang, Yezhou},
+    title     = {eTraM: Event-based Traffic Monitoring Dataset},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {22637-22646}
 }
   ```
